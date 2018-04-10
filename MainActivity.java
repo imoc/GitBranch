@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void funMaster() {
         Log.d("funMaster","funMaster");
-        Log.d("funBranch1","funMaster");
+        Log.d("funBranch11","funMaster");
     }
 }
