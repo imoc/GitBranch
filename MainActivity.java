@@ -11,7 +11,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         funMaster();
+        funBranch1();
         funBranch2();
+    }
+
+    private void funBranch1() {
+        Log.d("funBranch1","funMaster");
     }
 
     private void funBranch2() {
@@ -19,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void funMaster() {
-        Log.d("funMaster", "funMaster");
+        Log.d("funMaster","funMaster");
+        Log.d("funBranch1","funMaster");
         Log.d("funBranch2", "funMaster");
     }
 }
