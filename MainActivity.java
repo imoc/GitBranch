@@ -15,10 +15,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void funBranch1() {
-        Log.d("funBranch1","funBranch1");
+        Log.d("funBranch1","funMaster");
     }
 
     private void funMaster() {
         Log.d("funMaster","funMaster");
+        Log.d("funBranch1","funMaster");
     }
 }
