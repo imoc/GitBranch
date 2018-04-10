@@ -11,6 +11,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         funMaster();
+        funBranch1();
+    }
+
+    private void funBranch1() {
+        Log.d("funBranch1","funBranch1");
     }
 
     private void funMaster() {
