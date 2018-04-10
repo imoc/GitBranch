@@ -54,4 +54,13 @@ public class MainActivity extends AppCompatActivity {
             btn_feature_2.setText(R.string.feature_2);
         }
     }
+
+    /**
+     * feature-5
+     * display Hello
+     * @param view
+     */
+    public void feature5(View view) {
+        btn_feature_5.setText(R.string.feature_5_dis);
+    }
 }
