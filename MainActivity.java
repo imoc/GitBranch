@@ -28,4 +28,17 @@ public class MainActivity extends AppCompatActivity {
         Log.d("funBranch1","funMaster");
         Log.d("funBranch2", "funMaster");
     }
+
+    /**
+     * feature-1
+     * display HelloWorld
+     * @param view
+     */
+    public void feature1(View view) {
+        if (btn_feature_1.getText().toString().equals("功能1")) {
+            btn_feature_1.setText(R.string.feature_1_dis);
+        } else {
+            btn_feature_1.setText(R.string.feature_1);
+        }
+    }
 }
