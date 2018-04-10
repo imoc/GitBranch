@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void funMaster() {
-        Log.d("funMaster", "funMaster");
+        Log.d("funMaster", "funMaster 1");
     }
 }
